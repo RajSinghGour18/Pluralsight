@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+.img-1{
+    height: 50px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+
+.type-1{
+    height: 100vh;
+    width: 40%;
+    background-color: black;
+}
+
+
+.box{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+.email{
+    font-weight: 100;
+    margin-right: 255px;
+}
+
+
+.password{
+    margin-right: 335px;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+
+
+.box input{
+    margin-bottom: 30px;
+    width: 70%;
+    height: 35px;
+    border: 0.5px solid grey;
+    background-color: black;
+  
+}
+
+
+
+.sign{
+    height: 35px;
+    width: 427px;
+    background-color: #2Ea0d6;
+    color: white;
+    border: none;
+    font-size: large;
+    text-emphasis-color: white;
+    margin-bottom: 50px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #2Ea0d6;
+}
+
+
+
+.fp{
+    margin-bottom: 30px;
+}
+
+
+
+hr{
+   margin-top: 20px;
+   align-items: center;
+   justify-content: space-around;
+   display: flex;
+   width: 70%;
+   margin-left: 86px;
+   background: #ffffff26;
+}
+
+
+
+.new{
+    height: 35px;
+    width: 70%;
+    margin-top: 23px;
+    background: #8A99A840;
+    color: white;
+    font-size: medium;
+    border: 1.5px solid grey;
+}
+
+
+
+.type-2{
+    height: 100vh;
+    width: 60%;
+    background-image: url(./Screenshot\ \(2\).png);
+    background-size: cover;
+}
+
+
+
+img{
+    height: 60px;
+}
+
+
+
+
+@media(max-width:376px){
+
+
+    .container{
+        height: 100vh;
+    }
+
+    .img-1{
+        height: 50px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         margin-left: 70px;
+    }
+
+
+    input{
+        margin-top: 10px;
+    }
+
+
+    .type-1{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .email{
+
+        width: 65%;
+    }
+
+
+    p{
+        margin-left: 20px;
+    }
+
+
+
+    .password{
+        width: 44%;
+    }
+
+
+    .username{
+        margin-bottom: 20px;
+    }
+
+
+    .sign{
+        width: 70%;
+    }
+
+
+
+    hr{
+        margin-left: 60px;
+    }
+
+
+
+    .type-2{
+        display: none;
+    }
+
+    
+}
